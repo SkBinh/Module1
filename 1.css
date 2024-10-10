@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Màu nền */
+    display: flex;
+    justify-content: center; /* Canh giữa theo chiều ngang */
+    align-items: center; /* Canh giữa theo chiều dọc */
+    height: 100vh; /* Chiều cao đầy đủ của viewport */
+    margin: 0;
+}
+
+.form-container {
+    background-color: white; /* Màu nền cho biểu mẫu */
+    padding: 20px; /* Khoảng cách bên trong */
+    border-radius: 5px; /* Bo góc */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+    width: 300px; /* Chiều rộng của biểu mẫu */
+}
+
+
+legend {
+    font-size: 1.5em; /* Kích thước chữ của legend */
+    margin-bottom: 10px; /* Khoảng cách dưới legend */
+}
+
+label {
+    display: block; /* Hiển thị mỗi label trên một dòng riêng */
+    margin-bottom: 5px; /* Khoảng cách dưới label */
+}
+
+input[type="text"],
+input[type="password"] {
+    color: #bbe736;
+    background-color: burlywood;
+    width: 100%; /* Chiều rộng 100% */
+    padding: 10px; /* Khoảng cách bên trong */
+    margin-bottom: 15px; /* Khoảng cách dưới input */
+    border: 1px solid #ccc; /* Đường viền */
+    border-radius: 4px; /* Bo góc */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Màu nền nút */
+    color: white; /* Màu chữ */
+    padding: 10px; /* Khoảng cách bên trong */
+    border: none; /* Bỏ viền */
+    border-radius: 4px; /* Bo góc */
+    cursor: pointer; /* Con trỏ khi di chuột qua */
+    width: 100%; /* Chiều rộng 100% */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Màu khi di chuột qua */
+}
