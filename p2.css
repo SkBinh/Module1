@@ -1,0 +1,33 @@
+.row label{
+    color: blue;
+    display: inline-block;
+    width: 100px;
+    margin: 0;
+}
+.row{
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 5px;
+}
+.form-box{
+    max-width: fit-content;
+    background-color: rgb(249, 249, 170);
+    padding: 5px;
+}
+h2{
+    color: blue;
+    background-color: aquamarine;
+    margin-top: 5px;
+    padding: 2px;
+}
+.button-group{
+    margin-left: 100px;
+    padding: 5px;
+}
+textarea {
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    resize: none;
+    margin-top: 0;
+}

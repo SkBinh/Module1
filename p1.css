@@ -1,0 +1,42 @@
+h2{
+    color: white;
+    background-color: orangered; 
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 5px;
+    margin: 0px 0px 5px 0px;
+}
+.row label{
+    display: inline-block;
+    width: 100px;
+    color: blue;
+    text-align: right;
+}
+.checkbox-column label{
+    color: orange;
+    display: flex;
+    gap: 10px;
+    white-space: nowrap;
+}
+.checkbox-group{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.row input{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.button-group{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    gap: 10px;
+    
+}
+.form-box{
+    border: 10px solid rgb(0, 208, 255);
+    max-width: fit-content;
+    padding: 10px;
+}
+    
